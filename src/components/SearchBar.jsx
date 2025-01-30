@@ -12,14 +12,14 @@ const SearchBar = ({ city, setCity, onSearch, onAddFavorite }) => {
       <button
         type="button"
         onClick={onSearch}
-        className="p-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-all"
+        className="p-3 bg-white cursor-pointer text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition-all"
       >
         Search
       </button>
       <button
         type="button"
         onClick={onAddFavorite}
-        className="p-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-all"
+        className="p-3 bg-green-500 cursor-pointer text-white font-semibold rounded-lg hover:bg-green-600 transition-all"
       >
         + Favorite
       </button>

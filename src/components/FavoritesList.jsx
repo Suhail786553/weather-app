@@ -12,7 +12,7 @@ const FavoritesList = ({ favorites, onFavoriteClick, onRemoveFavorite }) => {
           >
             <button
               onClick={() => onFavoriteClick(fav)}
-              className="text-lg font-semibold text-gray-800 flex-1 text-left"
+              className="text-lg cursor-pointer font-semibold text-gray-800 flex-1 text-left"
             >
               {fav}
             </button>
